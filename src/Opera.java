@@ -4,7 +4,7 @@ public class Opera extends MusicalShow {
     public Opera(String title,
                  int duration,
                  Director director,
-                 MusicAuthor musicAuthor,
+                 Person musicAuthor,
                  String librettoText,
                  int choirSize) {
         super(title, duration, director, musicAuthor, librettoText);

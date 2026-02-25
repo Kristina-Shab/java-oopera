@@ -5,8 +5,8 @@ public class Theatre {
         Actor vera = new Actor("Вера", "Макарова", Gender.FEMALE, 173);
         Director max = new Director("Максим", "Хоменко", Gender.MALE, 5);
         Director mila = new Director("Людмила", "Дойнова", Gender.FEMALE, 25);
-        MusicAuthor leo = new MusicAuthor("Леонид", "Миронов", Gender.MALE);
-        Choreographer lina = new Choreographer("Каролина", "Метелкина", Gender.FEMALE);
+        Person leo = new Person("Леонид", "Миронов", Gender.MALE);
+        Person lina = new Person("Каролина", "Метелкина", Gender.FEMALE);
 
         Show show = new Show("Цирк на сцене", 120, max);
         Ballet ballet = new Ballet("Чиполлино", 180, mila, leo,
